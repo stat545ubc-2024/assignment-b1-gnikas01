@@ -21,6 +21,8 @@ library(roxygen2)
 
 # Exercise 1- Making `calculate_mean()`
 
+For this exersize I will combine the use of the `mean()` and `round()` functions into one easily to use function called `calculate_mean()`.
+
 ```{r}
 #' Calculate Mean with Optional Rounding
 #'

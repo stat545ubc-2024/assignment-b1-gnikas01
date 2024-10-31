@@ -39,6 +39,9 @@ library(roxygen2)
 
 # Exercise 1- Making `calculate_mean()`
 
+For this exersize I will combine the use of the `mean()` and `round()`
+functions into one easily to use function called `calculate_mean()`.
+
 ``` r
 #' Calculate Mean with Optional Rounding
 #'
@@ -179,7 +182,7 @@ test_results <- test_that("calculate_mean function works correctly",
   expect_error(calculate_mean(c(1, 2, 3), round_to = -1), "round_to must be a non-negative number"))
 ```
 
-    ## Test passed 🎊
+    ## Test passed 🥳
 
 ### Test 3
 
@@ -192,4 +195,4 @@ test_results <- test_that("calculate_mean function works correctly",
   expect_error(calculate_mean(c("a", "b", "c")), "Input must be a numeric vector"))
 ```
 
-    ## Test passed 🎉
+    ## Test passed 🌈
